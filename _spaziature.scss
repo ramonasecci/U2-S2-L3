@@ -1,0 +1,33 @@
+@for $i from 1 to 6 {
+    .pad-top-#{$i}{
+        padding-top: 5px*$i;
+    }
+    .pad-bottom-#{$i}{
+        padding-bottom: 5px*$i;
+    }
+    .pad-left-#{$i}{
+        padding-left: 5px*$i;
+    }
+    .pad-right-#{$i}{
+        padding-right: 5px*$i;
+    }
+}
+
+
+
+@for $i from 1 to 6 {
+    .mar-top-#{$i}{
+        margin-top: 5px*$i;
+    }
+    .mar-bottom-#{$i}{
+        margin-bottom: 5px*$i;
+    }
+    .mar-left-#{$i}{
+        margin-left: 5px*$i;
+    }
+    .mar-right-#{$i}{
+        margin-right: 5px*$i;
+    }
+}
+
+

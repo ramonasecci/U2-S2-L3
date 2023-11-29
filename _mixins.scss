@@ -1,0 +1,10 @@
+@mixin titleBig {
+    color: $colHeading;
+    font-size: $textSizeH;
+    font-weight: bold;
+}
+
+@mixin flex {
+    display: flex;
+    flex-wrap: nowrap;
+}

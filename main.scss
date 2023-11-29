@@ -1,0 +1,58 @@
+@import "reset";
+@import "colori";
+@import "font";
+@import "spaziature";
+@import "mixins";
+
+
+header, #hero {
+    background-color: $colbgHero;
+}
+
+nav, ul{
+    @include flex;
+}
+
+ul{
+    justify-content: space-evenly;
+}
+
+a {
+    color:$colGenTesti;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+h2 {
+    color: $colHeading;
+    font-size: $textSizeP;
+    font-weight: bold;
+}
+
+h1 {
+    @include titleBig;
+}
+
+#headLine p {
+    font-size: $textSizeP;
+}
+
+#hero {
+    @include flex;
+    justify-content: space-around;
+}
+#headLin, #hero>div{
+    flex-basis: 45%;
+}
+
+aside {
+    @include flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
